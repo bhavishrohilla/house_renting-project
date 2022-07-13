@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Property</title>
+    <link rel="stylesheet" href="./styles/addProperty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+      
+        <nav>
+          <div class="wrapper">
+            <div class="logo">
+              <img src="./images/website_logo.jpg" alt="logo" class="logoimg">
+              <a href="#" class="websitename">Rent & Relax</a></div>
+              <input type="radio" name="slider" id="menu-btn">
+              <input type="radio" name="slider" id="close-btn">
+              <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li>
+                  <a href="#" class="desktop-item">Houses</a>
+                  <input type="checkbox" id="showMega">
+                  <label for="showMega" class="mobile-item">Houses</label>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <img src="img/back6.jpg" alt="">
+                      </div>
+                      <div class="row">
+                        <h3>House Type</h3>
+                        <ul class="mega-links">
+                          <li><a href="#">All</a></li>
+                          <li><a href="#">Apartment</a></li>
+                          <li><a href="#">Cottage</a></li>
+                          <li><a href="#">Basement</a></li>
+                          <li><a href="#">Office</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <h3>Location</h3>
+                        <ul class="mega-links">
+                          <li><a href="#">All</a></li>
+                          <li><a href="#">Downtown</a></li>
+                          <li><a href="#">North york</a></li>
+                          <li><a href="#">Etobicoke</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <h3>Range</h3>
+                        <ul class="mega-links">
+                          <li><a href="#">Less than 1000$</a></li>
+                          <li><a href="#">1000$ -2000$</a></li>
+                          <li><a href="#">2000$ - 3000$</a></li>
+                          <li><a href="#">More than 3000$</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              <li><a href="#">Post property</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="#" class="desktop-item"><i class="fa fa-user" id="userlogo"></i> Profile </a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Profile</label>
+                <ul class="drop-menu">
+                  <li><a href="#">Buyer's requests</a></li>
+                  <li><a href="#">My properties</a></li>
+                  <li><a href="#">Forgot password</a></li>
+                  <li><a href="#">Edit profile</a></li>
+                  <li><a href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+            <form action="/" method="post">
+                <fieldset>
+                    <legend>Property Information</legend>
+                    <label for="addFile1">Add Photo 1</label>
+                    <input type="file" id="file"><br>
+                    <label for="addFile2">Add Photo 2</label>
+                    <input type="file" id="file"><br>
+                    <label for="addFile3">Add Photo 3</label>
+                    <input type="file" id="file"><br>
+                    <label for="desc">Add Desciption</label>
+                    <input type="text" id="description"><br>
+                    <label for="street">Street</label>
+                    <input type="text"><br>
+                    <label for="city">City</label>
+                    <input type="text"><br>
+                    <label for="province">Province</label>
+                    <input type="text"><br>
+                    <label for="availableDate">Date of Availabillity</label>
+                    <input type="date"><br>
+                    <label for="price">Price</label>
+                    <input type="number">$<br>
+                    <input type="submit" id="btn">
+                </fieldset>
+                
+            </form>
+        </div>
+      </main>
+
+      <footer class="main_footer">
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>Find your Dream renting space &</br/> Find suitable renter for your space. <br/> </p>
+            </div>
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="#"><i class="fas fa-phone-volume"></i>+1 999 9999 999</a>
+              </div>
+              <div class="email">
+                <a href="mailto:support@murach.com"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Pages</div>
+            <div><a href="#">All Houses</a></div>
+            <div><a href="#">About us</a></div>
+            <div><a href="#">Contact us</a></div>
+            <div><a href="#">Your Requests</a></div>
+            <div><a href="#">Owner's Messages</a></div>
+          </div>
+          <div class="right box">
+            <div class="topic">Message us</div>
+            <form action="#">
+              <input type="text" placeholder="Enter Your Message">
+              <input type="submit" name="" value="Send">
+              <div class="media-icons">
+                <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Copyright © 2020 <a href="#">Rent & Relax </a> All rights reserved</p>
+        </div>
+  </footer>
+</body>
+</html>
